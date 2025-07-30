@@ -1,1 +1,1 @@
-# CDAC_Project
+# Demand_Forecasting_and_Inventory_Optimization
