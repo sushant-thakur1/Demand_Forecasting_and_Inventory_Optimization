@@ -1,0 +1,88 @@
+/*
+ * CSS for result.html, based on the user-provided template.
+ * This file is assumed to be located at /static/styles/style1.css
+ */
+
+html {
+    background-image: url(image10.jpeg); /* Corrected path for Flask */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Added a font for consistency */
+    color: white; /* Ensures text is visible */
+}
+.container {
+    max-width: 700px;
+    width: 100%;
+    background-color: #4682b4;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    text-align: center; /* Center the content inside the container */
+}
+
+h1 {
+    color: white;
+    font-size: 2.5em; /* Adjusted size for better display */
+    margin-bottom: 20px;
+}
+
+/* Styles for the Prediction Text */
+.prediction-result {
+    font-size: 3em;
+    font-weight: bold;
+    color: #ffd700; /* Gold color for visibility */
+    display: block;
+    margin-top: 10px;
+}
+
+/* Styles for the Buttons */
+.button-container {
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 0 10px;
+    color: white;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.back-btn {
+    background-color: #007BFF;
+}
+
+.back-btn:hover {
+    background-color: #0056b3;
+}
+
+.tableau-btn {
+    background-color: #E94C3D;
+}
+
+.tableau-btn:hover {
+    background-color: #C0392B;
+}
