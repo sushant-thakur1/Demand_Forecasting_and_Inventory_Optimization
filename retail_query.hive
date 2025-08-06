@@ -1,0 +1,8 @@
+
+USE retail_demand_forecasting;
+
+select * from product_data limit 5;
+
+select * from store_data limit 5;
+
+select * from train_data limit 5;

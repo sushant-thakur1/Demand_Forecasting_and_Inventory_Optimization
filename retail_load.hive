@@ -1,0 +1,4 @@
+USE retail_demand_forecasting;
+LOAD DATA  INPATH '/user/talentum/Final_Project/product_data.csv' INTO TABLE product_data;
+LOAD DATA  INPATH '/user/talentum/Final_Project/store_data.csv' INTO TABLE store_data;
+LOAD DATA  INPATH '/user/talentum/Final_Project/train.csv' INTO TABLE train_data;
