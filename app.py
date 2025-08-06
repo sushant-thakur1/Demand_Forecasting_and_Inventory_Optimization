@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Load the model once when the application starts
 try:
-    with open('lightgbm.pkl', 'rb') as file:
+    with open('catboost.pkl', 'rb') as file:
         regressor = pickle.load(file)
     print("Model loaded successfully.")
 except Exception as e:
@@ -87,4 +87,5 @@ def predict():
 
 if __name__ == '__main__':
     # app.run(debug=True, port=4500)
+
     app.run(host='0.0.0.0',port=80)
