@@ -1,6 +1,5 @@
 /*
- * CSS for result.html, based on the user-provided template.
- * This file is assumed to be located at /static/styles/style1.css
+ * CSS for result.html
  */
 
 html {
@@ -85,4 +84,5 @@ h1 {
 
 .tableau-btn:hover {
     background-color: #C0392B;
+
 }
